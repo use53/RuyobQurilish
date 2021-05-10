@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_navigation"
+    app:startDestination="@id/vp_navigation">
+
+
+    <fragment
+        android:id="@+id/vp_navigation"
+        android:name="uz.ruyobqurilish.myruyobqurilish.splashui.VpFragment"
+        tools:layout="@layout/vp_fragment"/>
+    <fragment
+        android:id="@+id/first_navigation"
+        android:name="uz.mybiometric.firebasemikit.splash.first.FirstFragment"
+        tools:layout="@layout/first_fagment"/>
+    <fragment
+        android:id="@+id/two_navigation"
+        android:name="uz.mybiometric.firebasemikit.splash.two.TwoFragment"
+        tools:layout="@layout/two_fragment"/>
+    <fragment
+        android:id="@+id/three_navigation"
+        android:name="uz.ruyobqurilish.myruyobqurilish.splashui.three.ThreeFragment"
+        tools:layout="@layout/three_fragment"/>
+</navigation>

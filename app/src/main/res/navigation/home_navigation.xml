@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="uz.ruyobqurilish.myruyobqurilish.ui.home.HomeFragment"
+        tools:layout="@layout/home_fragment"/>
+    <fragment
+        android:id="@+id/house_photo_navigation"
+        android:name="uz.ruyobqurilish.myruyobqurilish.ui.HousePhotoFragment"
+        tools:layout="@layout/house_photo_fragment"/>
+    <fragment
+        android:id="@+id/account_navigation"
+        android:name="ru.examples.bilimdonuz.ui.account.AccountFragment"
+        tools:layout="@layout/account_fragment"/>
+</navigation>

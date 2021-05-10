@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aghajari.zoomhelper:ZoomHelper:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8122736dbfb501a1a3355123b9ca8237/jetified-ZoomHelper-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8122736dbfb501a1a3355123b9ca8237/jetified-ZoomHelper-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8122736dbfb501a1a3355123b9ca8237/jetified-ZoomHelper-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aghajari.zoomhelper/ZoomHelper/1.0.2/c35c42b4171157401896180a72c95ba515e9ad8a/ZoomHelper-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aghajari.zoomhelper/ZoomHelper/1.0.2/fb678e426bc2b0aca845da31f0eca1faa4a5dfdc/ZoomHelper-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

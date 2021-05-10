@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541016775698",
+    "project_id": "myruyobqurilish",
+    "storage_bucket": "myruyobqurilish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541016775698:android:a0effe348064a6fbb64ccb",
+        "android_client_info": {
+          "package_name": "uz.ruyobqurilish.myruyobqurilish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541016775698-3sivutr5u7q462beb3fssman77bufvg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerA4PGJSCNsvXd_JcV2RM1Bc1zyhSxB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541016775698-3sivutr5u7q462beb3fssman77bufvg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

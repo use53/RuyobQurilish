@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ruyob qurilish</string>
+    <string name="error_phone_req">telfon nomer 9 bulishi kerak</string>
+    <string name="error_name_req">Ismni to\'liq kiriting</string>
+    <string name="error_password_req">Parol 9 ta raqamdan kam bo\'lmasigi kerak</string>
+    <string name="error_terms_of_use_agreement">belgilashni unitdizgiz</string>
+    <string name="error_singin_name">Ism xato</string>
+    <string name="error_singin_pass">Parol xato</string>
+</resources>
