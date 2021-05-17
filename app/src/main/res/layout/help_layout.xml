@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Toolbar
+        android:id="@+id/toolbar_help"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:title="Yordam"
+        android:titleTextColor="@color/white"
+        android:navigationIcon="@drawable/ickeyboard_backspace_24"
+        android:background="@color/tollbar_200"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_help"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/title_help"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/ollkornariableontwght"
+        android:text="Dastur O'zbekistondagi barcha oldi sotti uylar sotish va olishda yordam beradi eng arzon
+uylar bizda va bizda e'lon berishingiz ham munkin biz bilan bo'g'lanish uchun quydagi telefon raqamdan foydalanasiz
+ \n 94 607 16 94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/title_help"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloobold"
+        android:text="Dasturchi:Allayarov Lazizbek"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

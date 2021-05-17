@@ -17,4 +17,9 @@
         android:id="@+id/account_navigation"
         android:name="ru.examples.bilimdonuz.ui.account.AccountFragment"
         tools:layout="@layout/account_fragment"/>
+    <fragment
+        android:id="@+id/help_navigation"
+        tools:layout="@layout/help_layout"
+        android:name="uz.ruyobqurilish.myruyobqurilish.ui.HelpFragment"
+        android:label="HelpFragment" />
 </navigation>

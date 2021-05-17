@@ -15,7 +15,8 @@ import uz.ruyobqurilish.myruyobqurilish.registratsiya.RegistratsiyaActivity
 import uz.ruyobqurilish.myruyobqurilish.splashui.three.ThreeFragment
 import uz.ruyobqurilish.myruyobqurilish.ui.HomeActivity
 
-class VpFragment:Fragment(R.layout.vp_fragment), TabLayoutMediator.TabConfigurationStrategy {
+class VpFragment:Fragment(R.layout.vp_fragment),
+        TabLayoutMediator.TabConfigurationStrategy {
 
     private val preferense by lazy { PreferenceManager.instanse(requireContext()) }
     private val fragment by lazy { mutableListOf<Fragment>()

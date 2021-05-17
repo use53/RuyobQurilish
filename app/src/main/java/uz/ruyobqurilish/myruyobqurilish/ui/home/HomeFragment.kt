@@ -126,6 +126,10 @@ class HomeFragment ():Fragment(R.layout.home_fragment), IOnClickListener,
         if (item!!.itemId==R.id.menu_account){
            navController.navigate(R.id.account_navigation)
             return true
+        }else{
+            if(item.itemId==R.id.menu_help){
+               navController.navigate(R.id.help_navigation)
+            }
         }
        return true
     }
